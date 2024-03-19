@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    /* background-color: #f9f9f9; */
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a, .dropbtn{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+.navigation a:hover,
+.dropbtn:hover,
+.navigation a.active{
+    background: #359381;
+    color: #fff;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:#359381;
+}
+
+.parallax {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Adjust the height as needed */
+    background: url('IMAGES/backgroundimg2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+.sec {
+    padding: 20px;
+    background-color: #ffffff;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)..;. */
+    width: 80%; /* Set a fixed width */
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    text-align: left; /* Center align content within the section */
+    font-family: "Lucida Calligraphy", "URW Chancery L";
+  }
+  
+  .sec h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Grape Nuts", cursive;
+
+  }
+  
+  .sec p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #494848;
+    font-family: "Grape Nuts", cursive;
+
+
+  }
+  
+  #img4 {
+    margin: 0; /* Remove all margins */
+    width: 100%; /* Make the image span across the page */
+  }
+  
+
+  
+.about {
+    padding: 50px 0;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 0 20px;
+    font-family: "Grape Nuts", cursive;
+  }
+  
+  .about-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Grape Nuts", cursive;
+
+  }
+  
+  .about-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: "Grape Nuts", cursive;
+
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Different background colors for each section based on class names */
+  .about.Lover {
+    background-color: #eab4cc; /* Light gray */
+  }
+  
+  .about.Fearless {
+    background-color: #f7c685; /* Lighter gray */
+  }
+  .about.Evermore {
+    background-color: #c99784; /* Lighter gray */
+  }
+  .about.Reputation {
+    background-color: #746f70; /* Lighter gray */
+    color: #cdc9c1;
+
+  }
+  .about.Speaknow {
+    background-color: #c7a8cb; /* Lighter gray */
+  }
+  .about.Red{
+    background-color: #7a2e39;
+    color: #cdc9c1;
+
+  }
+  .about.Folklore {
+    background-color: #cdc9c1;
+  }
+  .about.Midnights {
+    background-color: #242e47;
+    color: #cdc9c1;
+  }
+  .about.t1989 {
+    background-color: #b5e5f8;
+  }
+  
